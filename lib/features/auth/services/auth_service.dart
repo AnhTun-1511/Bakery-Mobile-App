@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+// thư việN để lưu dữ liệu và bộ nhớ máy (tương tự cookies)
 
 class AuthService {
   final Dio _dio = Dio();

@@ -29,7 +29,7 @@ class _LoginScreenState extends State<LoginScreen> {
       );
       return;
     }
-
+    //  // bật chế độ chờ
     setState(() => _isLoading = true);
 
     // Gọi cái API bên kia
@@ -37,7 +37,6 @@ class _LoginScreenState extends State<LoginScreen> {
       _userController.text, // Lấy chữ người dùng nhập
       _passController.text,
     );
-
     setState(() => _isLoading = false);
 
     if (success) {
